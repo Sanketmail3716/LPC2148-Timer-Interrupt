@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sanketm SanketM, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARM.DLL V5.20
+Dialog DLL:      DARMP.DLL V1.52.0.0
+Target DLL:      UL2ARM.DLL V1.74.8.0
+Dialog DLL:      TARMP.DLL V1.52.0.0
+ 
+<h2>Project:</h2>
+G:\My Drive\Envision\ARM_Microcontoller\Interrupt\Timer_interrupt\Timer_interrupt.uvproj
+Project File Date:  02/17/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling Timer_interrupt.c...
+PLL.h(3): warning:  #1-D: last line of file ends without a newline
+  void PLL_SET();
+PLL.h(3): warning:  #1295-D: Deprecated declaration PLL_SET - give arg types
+  void PLL_SET();
+Timer_interrupt.c(9): warning:  #1295-D: Deprecated declaration PLL_SET - give arg types
+  void PLL_SET();
+Timer_interrupt.c(38): warning:  #111-D: statement is unreachable
+  	return 0;
+Timer_interrupt.c: 4 warnings, 0 errors
+compiling PLL.c...
+PLL.h(3): warning:  #1-D: last line of file ends without a newline
+  void PLL_SET();
+PLL.h(3): warning:  #1295-D: Deprecated declaration PLL_SET - give arg types
+  void PLL_SET();
+PLL.c(14): warning:  #1-D: last line of file ends without a newline
+  }
+PLL.c: 3 warnings, 0 errors
+assembling Startup.s...
+linking...
+Program Size: Code=1148 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\Objects\Timer_interrupt.axf" - 0 Error(s), 7 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
